@@ -1,0 +1,17 @@
+#dates, #times {
+    width: 70%;
+    margin: 1% auto;
+    padding: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+#dates {
+    font-size: 3em;
+}
+#times {
+    font-size: 13em;
+}
+body {
+    background-color: rgb(16, 16, 16);
+}
