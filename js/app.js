@@ -6,13 +6,13 @@
 var dayOfWeek = ["Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy"];
 var linkAPI = "https://script.google.com/macros/s/AKfycbyd5AcbAnWi2Yn0xhFRbyzS4qMq1VucMVgVvhul5XqS9HkAyJY/exec?tz=Asia/Ho_Chi_Minh";
 
-var now = new Date();
+var now = new Date(0);
 $.getJSON(linkAPI, function (data) {
     if (data.status == "ok") {
         now = new Date(data.year, data.month, data.day, data.hours, data.minutes, data.seconds, data.millis);
     }
     else {
-        alert("Vui lòng tải lại");
+        alert("Xin lỗi! Đã có lỗi xảy ra :[");
     }
 });
 
