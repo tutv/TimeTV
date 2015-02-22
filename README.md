@@ -12,3 +12,4 @@ https://tutv95.github.io/TimeTV/index.v2.html
 ## Công nghệ sử dụng:
 * Javascript với thư viện Jquery (Version 1.11.2)
 * API do davidayala.eu/current-time
+* FlipClock (v2)
