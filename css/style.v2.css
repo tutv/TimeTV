@@ -1,0 +1,17 @@
+.clock {
+    margin: 5% auto;
+    width: 70%;
+}
+#dates {
+    width: 70%;
+    margin: 2% auto;
+    padding: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 5em;
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+}
