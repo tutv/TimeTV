@@ -23,7 +23,7 @@ function loadTime() {
     $("#hour").text(now.getHours());
     $("#minute").text(now.getMinutes());
     $("#second").text(now.getSeconds());
-    $("#dayofweek").text(dayOfWeek[now.getDay()]);
+    $("#dayofweek").text(dayOfWeek[now.getDay() - 3]);
     $("#date").text(now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear());
 
     incrementTime();
